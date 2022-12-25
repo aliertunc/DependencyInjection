@@ -1,4 +1,4 @@
-# DependencyInjection
+# Dependency Injection
 
 In this project, you have implemented the Dependency Injection design pattern in C#. You have created four classes (DatabaseLog, FileLog, EmailNotification, and SMSNotification) that implement two interfaces (ILog and INotification). The Customer class has two constructor parameters of type ILog and INotification, respectively.
 
