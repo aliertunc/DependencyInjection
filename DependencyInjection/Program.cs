@@ -2,7 +2,7 @@
 
 namespace DependencyInjection
 {
-    class Program
+   public static class Program
     {
       static  void Main(string[] args)
         {
@@ -14,13 +14,13 @@ namespace DependencyInjection
 
             // Or
             ILog log2 = new FileLog();
-            INotification notification2 = new SMSNotification();
+            INotification notification2 = new SmsNotification();
             Customer customer2 = new Customer(log2, notification2);
             customer2.Add();
 
             // or
             ILog log3 = new DatabaseLog();
-            INotification notification3 = new SMSNotification();
+            INotification notification3 = new SmsNotification();
             Customer customer3 = new Customer(log3, notification3);
             customer3.Add();
 
@@ -66,7 +66,7 @@ namespace DependencyInjection
         }
     }
 
-    public class SMSNotification : INotification
+    public class SmsNotification : INotification
     {
         public void Send(string message)
         {
@@ -76,8 +76,8 @@ namespace DependencyInjection
 
     public class Customer
     {
-        private ILog _log;
-        private INotification _notification;
+        private readonly ILog _log;
+        private readonly INotification _notification;
 
         public Customer(ILog log, INotification notification)
         {

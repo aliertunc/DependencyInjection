@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ali\\source\\repos\\DependencyInjection\\DependencyInjection\\DependencyInjection.csproj": {}
+    "C:\\Users\\ali\\source\\repos\\2023\\DependencyInjection\\DependencyInjection\\DependencyInjection.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ali\\source\\repos\\DependencyInjection\\DependencyInjection\\DependencyInjection.csproj": {
+    "C:\\Users\\ali\\source\\repos\\2023\\DependencyInjection\\DependencyInjection\\DependencyInjection.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ali\\source\\repos\\DependencyInjection\\DependencyInjection\\DependencyInjection.csproj",
+        "projectUniqueName": "C:\\Users\\ali\\source\\repos\\2023\\DependencyInjection\\DependencyInjection\\DependencyInjection.csproj",
         "projectName": "DependencyInjection",
-        "projectPath": "C:\\Users\\ali\\source\\repos\\DependencyInjection\\DependencyInjection\\DependencyInjection.csproj",
+        "projectPath": "C:\\Users\\ali\\source\\repos\\2023\\DependencyInjection\\DependencyInjection\\DependencyInjection.csproj",
         "packagesPath": "C:\\Users\\ali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ali\\source\\repos\\DependencyInjection\\DependencyInjection\\obj\\",
+        "outputPath": "C:\\Users\\ali\\source\\repos\\2023\\DependencyInjection\\DependencyInjection\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -52,12 +52,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.13, 5.0.13]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

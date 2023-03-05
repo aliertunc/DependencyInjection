@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "d1IYKLaLK3kNUEb2FGdu3RwYuzhAda4qkkHirXVT6K8AxLf5EiyT8ZFYbQ91ki07+tnZjw1dYFe3fzFvtMg9Ag==",
+  "dgSpecHash": "5TJ1wRSC32ed539GyOMjKjbiYW70g+wg17d3aTsvYM79hUsw8imUhrxRxSK0YoZ3PN9KC5C0X7MqieUnF8NqeA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ali\\source\\repos\\DependencyInjection\\DependencyInjection\\DependencyInjection.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\ali\\source\\repos\\2023\\DependencyInjection\\DependencyInjection\\DependencyInjection.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ali\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+  ],
   "logs": []
 }
